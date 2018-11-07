@@ -1,4 +1,5 @@
-const navbar = document.querySelector('#navbar');
+function updateNavbarOnScroll() {
+  const navbar = document.querySelector('#navbar');
   window.addEventListener('scroll', () => {
     if(window.scrollY>=400){
       navbar.classList.add('navbar-white')
@@ -6,4 +7,6 @@ const navbar = document.querySelector('#navbar');
       navbar.classList.remove('navbar-white')
     }
   });
+}
 
+export {updateNavbarOnScroll};
