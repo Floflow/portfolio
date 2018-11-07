@@ -4,6 +4,7 @@
 /* --- Components design --- */
 @import url("components/banner.css");
 @import url("components/navbar.css");
+@import url("components/projects.css");
 /* --- Fonts & colors --- */
 body{
   margin: 0px;
@@ -31,6 +32,8 @@ p {
 
 .container {
   margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 40px;
 }
 
 .wrapper-beige {

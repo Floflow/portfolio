@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  margin-right: 50px;
+}
