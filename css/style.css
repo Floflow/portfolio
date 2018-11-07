@@ -1,1 +1,33 @@
-style.css
+/* --- Google Fonts --- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display");
+
+/* --- Components design --- */
+@import url("components/banner.css");
+/* --- Fonts & colors --- */
+body{
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Playfair Display';
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Open Sans';
+  font-size: 30px;
+}
+
+
+p {
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+

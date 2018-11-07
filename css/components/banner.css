@@ -1,0 +1,16 @@
+.banner {
+  background-size: cover !important;
+  height: 100vh;
+  color: black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.banner-content {
+  margin-left: 128px;
+  margin-top: 117px;
+}
+
+.banner-content h1 {
+  margin-right: 450px;
+}
