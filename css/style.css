@@ -3,6 +3,7 @@
 
 /* --- Components design --- */
 @import url("components/banner.css");
+@import url("components/navbar.css");
 /* --- Fonts & colors --- */
 body{
   margin: 0px;
