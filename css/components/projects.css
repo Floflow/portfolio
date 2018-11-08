@@ -7,6 +7,10 @@
   margin-right: 50px;
 }
 
+.description h3 {
+  font-size: 25px;
+}
+
 .slide-in {
   opacity:0;
   transition:all 1s;
@@ -18,3 +22,12 @@
   opacity:1;
   transform:translateX(0%) scale(1);
 }
+
+.title{
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-style: bold;
+  font-size: 35px;
+}
+
