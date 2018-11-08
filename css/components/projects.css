@@ -3,20 +3,21 @@
   justify-content: space-between;
 }
 
-.description {
-  margin-right: 50px;
-}
-
 .description h3 {
   font-size: 25px;
 }
 
 .slide-in {
   opacity:0;
-  transition:all 1s;
+  transition:all .5s;
 }
 .align-right.slide-in{
   transform:translateX(50%) scale(1);
+  margin-left: 50px;
+}
+.align-left.slide-in{
+  transform:translateX(-50%) scale(1);
+  margin-right: 50px;
 }
 .slide-in.active {
   opacity:1;

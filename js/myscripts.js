@@ -10,7 +10,7 @@ const navbar = document.querySelector('#navbar');
 const sliderImages = document.querySelectorAll('.slide-in');
   function checkSlide() {
     sliderImages.forEach(sliderImage => {
-      const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+      const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 1.5;
       const imageBottom = sliderImage.offsetTop + sliderImage.innerHeight;
       const isHalfShown = slideInAt > sliderImage.offsetTop;
       if(isHalfShown) {
