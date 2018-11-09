@@ -9,7 +9,6 @@
 body{
   margin: 0px;
 }
-
 h1 {
   font-family: 'Playfair Display';
   font-size: 60px;
@@ -18,24 +17,19 @@ h2 {
   font-family: 'Playfair Display';
   font-size: 50px;
 }
-
 h3 {
   font-family: 'Open Sans';
   font-size: 30px;
 }
-
-
 p {
   font-family: 'Open Sans', 'sans-serif';
   font-size: 18px;
 }
-
 .container {
   margin: 0 auto;
   padding-bottom: 60px;
   padding-top: 40px;
 }
-
 .wrapper-beige {
   background-color: #FBF9FA;
 }
