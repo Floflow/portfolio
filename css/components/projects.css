@@ -3,15 +3,16 @@
   justify-content: space-between;
 }
 
-.flex {
-  border-bottom: 1px solid grey;
-} :last-child {
-    border-bottom: none;
-  }
+.flex-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
 .logo {
-  width: 300px;
+  width: 100px;
 }
+
 
 .logo-git {
   width: 80px;
@@ -19,6 +20,34 @@
 
 .logo-rails {
   width: 100px;
+}
+
+.level-JS{
+  border: red;
+  background-color: red;
+  height: 20px;
+  width: 20%;
+}
+
+.level-HTML-CSS {
+  border: red;
+  background-color: red;
+  height: 20px;
+  width: 20%;
+}
+
+.level-ruby-on-rails {
+  border: red;
+  background-color: red;
+  height: 20px;
+  width: 20%;
+}
+
+.level-git {
+  border: red;
+  background-color: red;
+  height: 20px;
+  width: 20%;
 }
 
 .description h3 {
