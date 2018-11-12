@@ -84,58 +84,11 @@
       <div class="wrapper-beige">
         <div class='container'>
           <h2 id='contactme'>Contact me !</h2>
-          <form name="htmlform" method="post" action="html_form_send.php">
-            <table width="450px">
-            </tr>
-            <tr>
-             <td valign="top">
-              <label for="first_name">First Name *</label>
-             </td>
-             <td valign="top">
-              <input type="text" class="form-control" id="first_name" placeholder="bob"></input>
-             </td>
-            </tr>
-             
-            <tr>
-             <td valign="top"">
-              <label for="last_name">Last Name *</label>
-             </td>
-             <td valign="top">
-              <input type="text" class="form-control" id="last_name" placeholder="bob"></input>
-             </td>
-            </tr>
-            <tr>
-             <td valign="top">
-              <label for="email">Email Address *</label>
-             </td>
-             <td valign="top">
-              <input type="text" class="form-control" id="email" placeholder="bob"></input>
-             </td>
-             
-            </tr>
-            <tr>
-             <td valign="top">
-              <label for="telephone">Telephone Number</label>
-             </td>
-             <td valign="top">
-              <input type="text" class="form-control" id="telephone" placeholder="bob"></input>
-             </td>
-            </tr>
-            <tr>
-             <td valign="top">
-              <label for="comments">Comments *</label>
-             </td>
-             <td valign="top">
-              <input type="text" class="form-control" id="comments" placeholder="bob"></input>
-             </td>
-             
-            </tr>
-            <tr>
-             <td colspan="2" style="text-align:center">
-              <input type="submit" value="Submit">   ( <a href="http://www.freecontactform.com/html_form.php">HTML Form</a> )
-             </td>
-            </tr>
-            </table>
+          <form action="mail.php" method="POST">
+            <p>Name</p> <input type="text" name="name">
+            <p>Email</p> <input type="text" name="email">
+            <p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+            <input type="submit" value="Send"><input type="reset" value="Clear">
           </form>
         </div>
       </div>
