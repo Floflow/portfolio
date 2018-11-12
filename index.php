@@ -30,7 +30,7 @@
     </div>
     <div class="banner" style="background-image: url('images/bolivia.jpg');">
       <div class="banner-content">
-        <h1>Hi, I'm Floriane Perrin and I'm a front-end developer.</h1>
+        <h1>Hi, I'm Floriane Perrin test and I'm a front-end developer.</h1>
         <h3>I'm also a something and something and something and something else</h2>
       </div>
     </div>
