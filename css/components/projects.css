@@ -9,10 +9,85 @@
   justify-content: flex-start;
 }
 
+.flex-interests {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line {
+  height: 25px;
+  min-width: 800px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  color: red;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.line:before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background-color: white;
+}
+.line:after{
+  content: '';
+  background-color: red;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+
+.line1:after {
+  max-width: 50%;
+
+}
+.line2:after {
+  max-width: 50%;
+
+}
+.line3:after {
+  max-width: 50%;
+
+}
+.line4:after {
+  max-width: 50%;
+
+}
+@keyframes animate {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
+
+.legend {
+  display: flex;
+}
+
+.color {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+
 .logo {
   width: 100px;
 }
-
 
 .logo-git {
   width: 80px;
