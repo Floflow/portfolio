@@ -15,6 +15,12 @@
   justify-content: space-between;
 }
 
+.wrapper-beige {
+  background-color: #FBF9FA;
+  position: static;
+  z-index: -99;
+}
+
 .line {
   height: 25px;
   min-width: 800px;
@@ -28,7 +34,7 @@
 .line:before{
   content: '';
   width: 100%;
-  position: absolute;
+
   left: 0;
   height: 25px;
   top: 0;
@@ -43,28 +49,22 @@
   display: block;
   width: 100%;
   animation: animate 1 4s;
-  position: absolute;
+
   top: 0;
   left: 0;
   z-index: -1;
-
 }
-
 .line1:after {
-  max-width: 50%;
-
+  max-width: 80%;
 }
 .line2:after {
   max-width: 50%;
-
 }
 .line3:after {
-  max-width: 50%;
-
+  max-width: 30%;
 }
 .line4:after {
-  max-width: 50%;
-
+  max-width: 60%;
 }
 @keyframes animate {
   0% {
