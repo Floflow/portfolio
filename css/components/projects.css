@@ -17,8 +17,6 @@
 
 .wrapper-beige {
   background-color: #FBF9FA;
-  position: static;
-  z-index: -99;
 }
 
 .line {
@@ -28,13 +26,11 @@
   line-height: 25px;
   color: red;
   padding: 0 0 0 10px;
-  position: relative;
 }
 
 .line:before{
   content: '';
   width: 100%;
-
   left: 0;
   height: 25px;
   top: 0;

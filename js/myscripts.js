@@ -21,18 +21,10 @@ const sliderImages = document.querySelectorAll('.slide-in');
   }
   window.addEventListener('scroll', checkSlide);
 
-const wrappers = document.querySelectorAll('.panel');
-  function checkWrapper() {
-    wrappers.forEach(wrapper => {
-      const fixedAt = window.scrollY + window.innerHeight;
-      console.log(fixedAt);
-      if(fixedAt) {
-        wrapper.style.position = "fixed";
-      }
-    });
-  }
-window.addEventListener('scroll', checkWrapper);
-console.log('hey');
+window.sr = ScrollReveal({ reset: false });
+sr.reveal('.text-reveal', { duration: 3000 });
+sr.reveal('.title', { duration: 2000 });
+sr.reveal('.content', { duration: 2000, delay: 100 });
 
 
 
