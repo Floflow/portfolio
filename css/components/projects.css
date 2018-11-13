@@ -19,10 +19,6 @@
   background-color: #FBF9FA;
 }
 
-.picture:hover{
-  width: 600px;
-}
-
 .line {
   height: 25px;
   min-width: 800px;
