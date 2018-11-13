@@ -28,15 +28,7 @@
   padding: 0 0 0 10px;
 }
 
-.line:before{
-  content: '';
-  width: 100%;
-  left: 0;
-  height: 25px;
-  top: 0;
-  z-index: -2;
-  background-color: white;
-}
+
 .line:after{
   content: '';
   background-color: red;
@@ -45,7 +37,6 @@
   display: block;
   width: 100%;
   animation: animate 1 4s;
-
   top: 0;
   left: 0;
   z-index: -1;
