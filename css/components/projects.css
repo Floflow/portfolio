@@ -19,19 +19,22 @@
   background-color: #FBF9FA;
 }
 
+.picture:hover{
+  width: 600px;
+}
+
 .line {
   height: 25px;
   min-width: 800px;
   margin: 0 auto 10px;
   line-height: 25px;
-  color: red;
+  color: #2b3595;
   padding: 0 0 0 10px;
 }
 
-
 .line:after{
   content: '';
-  background-color: red;
+  background-color: #2b3595;
   height: 25px;
   transition: 0.8s;
   display: block;
