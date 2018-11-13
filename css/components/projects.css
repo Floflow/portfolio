@@ -24,13 +24,13 @@
   min-width: 800px;
   margin: 0 auto 10px;
   line-height: 25px;
-  color: #2b3595;
+  color: black;
   padding: 0 0 0 10px;
 }
 
 .line:after{
   content: '';
-  background-color: #2b3595;
+  background-color: #26baee;
   height: 25px;
   transition: 0.8s;
   display: block;
@@ -69,6 +69,13 @@
   background-color: red;
   height: 30px;
   width: 30px;
+}
+
+.kbuddy{
+  max-width: 280px;
+}
+.startrip{
+  max-width: 600px;
 }
 
 .logo {
