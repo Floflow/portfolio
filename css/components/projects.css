@@ -8,6 +8,20 @@
   align-items: center;
   justify-content: flex-start;
 }
+.flex-interests{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.content-interests{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.logo-interests{
+  max-width: 100px;
+}
 
 .line {
   height: 25px;
@@ -62,6 +76,7 @@
 .logo-skills{
   max-width: 70px;
 }
+
 .logo {
   max-width: 100px;
 }
@@ -97,7 +112,7 @@
 }
 .title{
   text-align: center;
-  margin-top: 90px;
+  margin-top: 60px;
   margin-bottom: 30px;
   font-style: bold;
   font-size: 35px;
