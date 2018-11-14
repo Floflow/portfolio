@@ -73,6 +73,10 @@
 
 .kbuddy{
   max-width: 280px;
+  transition: .3s ease-in-out;
+}
+.kbuddy:hover{
+  transform: scale (1.5);
 }
 .startrip{
   max-width: 600px;
@@ -140,7 +144,9 @@
   opacity:1;
   transform:translateX(0%) scale(1);
 }
-
+.slide-in.active:hover {
+  transform: scale(1.1);
+}
 .title{
   text-align: center;
   margin-top: 90px;
