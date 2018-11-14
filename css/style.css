@@ -9,35 +9,53 @@
 /* --- Fonts & colors --- */
 body{
   margin: 0px;
+  overflow-x: hidden;
 }
 html {
   overflow-x: hidden;
 }
 h1 {
   font-family: 'Playfair Display';
-  font-size: 60px;
+  font-size: 30px;
 }
 h2 {
   font-family: 'Playfair Display';
-  font-size: 50px;
+  font-size: 25px;
 }
 h3 {
   font-family: 'Open Sans';
-  font-size: 30px;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  font-size: 20px;
 }
 p {
   font-family: 'Open Sans', 'sans-serif';
-  font-size: 18px;
+  font-size: 16px;
 }
 .container {
   margin: 0 auto;
-  padding-bottom: 60px;
-  padding-top: 40px;
 }
 .wrapper-beige {
   background-color: #FBF9FA;
+}
+
+@media(min-width: 648px){
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 50px;
+  }
+  h3 {
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .container {
+    padding-bottom: 60px;
+    padding-top: 40px;
+  }
 }
 
 

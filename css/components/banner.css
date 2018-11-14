@@ -1,9 +1,12 @@
+
 .banner {
   background-size: cover !important;
   height: 100vh;
   color: black;
   display: flex;
   align-items: center;
+  top: 0;
+  left: 0;
 }
 
 .banner-content{

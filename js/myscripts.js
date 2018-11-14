@@ -37,8 +37,7 @@ window.sr = ScrollReveal({ reset: false });
 sr.reveal('.text-reveal', { duration: 3000 });
 sr.reveal('.header', { duration: 2000 });
 sr.reveal('.content', { duration: 2000, delay: 100 });
-sr.reveal('.logo-skills', { duration: 2000 });
-sr.reveal('.logo-interests', { duration: 2000 });
+
 
 
 
