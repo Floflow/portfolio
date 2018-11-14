@@ -9,16 +9,6 @@
   justify-content: flex-start;
 }
 
-.flex-interests {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.wrapper-beige {
-  background-color: #FBF9FA;
-}
-
 .line {
   height: 25px;
   min-width: 800px;
@@ -61,65 +51,19 @@
   }
 }
 
-.legend {
-  display: flex;
-}
-
-.color {
-  background-color: red;
-  height: 30px;
-  width: 30px;
-}
-
-.kbuddy{
-  max-width: 280px;
-  transition: .3s ease-in-out;
-}
-.kbuddy:hover{
-  transform: scale (1.5);
-}
 .startrip{
   max-width: 600px;
 }
 
+.logo-skills{
+  max-width: 70px;
+}
 .logo {
-  width: 100px;
+  max-width: 100px;
 }
 
 .logo-git {
   width: 80px;
-}
-
-.logo-rails {
-  width: 100px;
-}
-
-.level-JS{
-  border: red;
-  background-color: red;
-  height: 20px;
-  width: 20%;
-}
-
-.level-HTML-CSS {
-  border: red;
-  background-color: red;
-  height: 20px;
-  width: 20%;
-}
-
-.level-ruby-on-rails {
-  border: red;
-  background-color: red;
-  height: 20px;
-  width: 20%;
-}
-
-.level-git {
-  border: red;
-  background-color: red;
-  height: 20px;
-  width: 20%;
 }
 
 .description h3 {
