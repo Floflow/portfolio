@@ -10,6 +10,11 @@
 body{
   margin: 0px;
 }
+
+html {
+  overflow-x: hidden;
+}
+
 h1 {
   font-family: 'Playfair Display';
   font-size: 60px;
