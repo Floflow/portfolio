@@ -32,6 +32,8 @@ p {
 }
 .container {
   margin: 0 auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .wrapper-beige {
   background-color: #FBF9FA;
