@@ -1,4 +1,3 @@
-
 const navbar = document.querySelector('#navbar');
   window.addEventListener('scroll', () => {
     if(window.scrollY>=400){
@@ -19,7 +18,7 @@ const sliderImages = document.querySelectorAll('.slide-in');
       }
     });
   }
-  window.addEventListener('scroll', checkSlide);
+window.addEventListener('scroll', checkSlide);
 
 const skills = document.querySelectorAll('.test');
 function checkSkill() {

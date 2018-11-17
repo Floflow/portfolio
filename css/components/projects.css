@@ -1,6 +1,33 @@
-.flex {
-  display: flex;
-  justify-content: space-between;
+.laptop{
+  display: none;
+}
+.phone{
+  max-width: 100px;
+}
+.startrip{
+  max-width: 300px;
+}
+.kbuddy{
+  max-width: 300px;
+}
+
+@media(min-width: 640px){
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phone{
+    display: none;
+  }
+  .laptop{
+    display: block;
+  }
+  .startrip{
+    max-width: 600px;
+  }
+  .kbuddy{
+    max-width: 500px;
+  }
 }
 
 .flex-skills {
@@ -80,55 +107,68 @@
 .line6:after {
   max-width: 60%;
 }
-@keyframes animate {
-  0% {
-    width: 0;
+@media(min-width: 840px) {
+  @keyframes animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100;
+    }
   }
-  100% {
-    width: 100;
+  .logo-skills{
+    max-width: 70px;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .logo-git {
+    width: 80px;
+  }
+
+  .description h3 {
+    font-size: 25px;
   }
 }
-.startrip{
-  max-width: 600px;
-}
-.kbuddy{
-  max-width: 500px;
-}
+
 .logo-skills{
-  max-width: 70px;
+  max-width: 40px;
 }
 .logo {
-  max-width: 100px;
+  max-width: 80px;
 }
 .logo-git {
-  width: 80px;
+  width: 60px;
 }
 
 .description h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.slide-in {
-  opacity:0;
-  transition:all .5s;
+@media(min-width: 640px){
+  .slide-in {
+    opacity:0;
+    transition:all .5s;
+  }
+  .align-right.slide-in{
+    transform:translateX(50%) scale(1);
+    margin-left: 50px;
+    margin-bottom: 90px;
+  }
+  .align-left.slide-in{
+    transform:translateX(-50%) scale(1);
+    margin-right: 50px;
+    margin-bottom: 90px;
+  }
+  .slide-in.active {
+    opacity:1;
+    transform:translateX(0%) scale(1);
+  }
+  .slide-in.active:hover {
+    transform: scale(1.1);
+  }
 }
-.align-right.slide-in{
-  transform:translateX(50%) scale(1);
-  margin-left: 50px;
-  margin-bottom: 90px;
-}
-.align-left.slide-in{
-  transform:translateX(-50%) scale(1);
-  margin-right: 50px;
-  margin-bottom: 90px;
-}
-.slide-in.active {
-  opacity:1;
-  transform:translateX(0%) scale(1);
-}
-.slide-in.active:hover {
-  transform: scale(1.1);
-}
+
 .title{
   text-align: center;
   margin-top: 60px;
