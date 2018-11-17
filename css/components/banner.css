@@ -1,15 +1,24 @@
-
 .banner {
   background-size: cover !important;
   height: 100vh;
   color: black;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   top: 0;
   left: 0;
 }
 
 .banner-content{
-  padding: 120px;
-  margin-bottom: 200px;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+@media(min-width: 840px) {
+  .banner {
+    align-items: center;
+  }
+  .banner-content{
+    padding: 120px;
+    margin-bottom: 200px;
+  }
 }

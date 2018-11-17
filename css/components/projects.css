@@ -5,13 +5,13 @@
   max-width: 100px;
 }
 .startrip{
-  max-width: 300px;
+  max-width: 280px;
 }
 .kbuddy{
-  max-width: 300px;
+  max-width: 280px;
 }
 
-@media(min-width: 640px){
+@media(min-width: 840px){
   .flex {
     display: flex;
     justify-content: space-between;
@@ -36,10 +36,16 @@
   justify-content: flex-start;
   padding: 10px;
 }
-.flex-interests{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+
+@media(min-width: 840px){
+  .flex-interests{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .logo-interests{
+    max-width: 100px;
+  }
 }
 .flex-contact{
   display:flex;
@@ -57,7 +63,7 @@
 }
 
 .logo-interests{
-  max-width: 100px;
+  max-width: 80px;
 }
 
 .line {
