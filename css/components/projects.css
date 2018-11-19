@@ -1,9 +1,12 @@
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .laptop{
   display: none;
 }
-.phone{
-  max-width: 100px;
-}
+
 .startrip{
   max-width: 280px;
 }
