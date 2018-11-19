@@ -13,7 +13,7 @@ const sliderImages = document.querySelectorAll('.slide-in');
       const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height ;
       const imageBottom = sliderImage.offsetTop + sliderImage.innerHeight;
       const isHalfShown = slideInAt > sliderImage.offsetTop;
-      if(isHalfShown && window.scrollX>=640) {
+      if(isHalfShown && window.scrollY>=640) {
         sliderImage.classList.add('active');
       }
     });
