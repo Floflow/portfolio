@@ -10,7 +10,17 @@
 .kbuddy{
   max-width: 280px;
 }
-
+.logo-contact{
+  max-width: 60px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.title{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
 @media(min-width: 840px){
   .flex {
     display: flex;
@@ -28,6 +38,11 @@
   .kbuddy{
     max-width: 500px;
   }
+  .title{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
 }
 
 .flex-skills {
@@ -35,6 +50,10 @@
   align-items: center;
   justify-content: flex-start;
   padding: 10px;
+}
+
+.flex-skills p{
+  margin-bottom: 0px;
 }
 
 @media(min-width: 840px){
@@ -46,6 +65,18 @@
   .logo-interests{
     max-width: 100px;
   }
+  .content-interests{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  .flex-skills p {
+    margin-bottom: 10px;
+  }
+  .logo-contact{
+    max-width: 80px;
+  }
 }
 .flex-contact{
   display:flex;
@@ -56,7 +87,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 30px 25px;
+  text-align: center;
 }
 .content-interests p{
   padding-top: 25px;
@@ -67,18 +99,19 @@
 }
 
 .line {
-  height: 30px;
+  height: 25px;
   margin: 0 auto 10px;
   line-height: 25px;
   color: black;
   padding: 0 0 0 10px;
   min-width: 250px;
+  height: 25px;
 }
 
 .line:after{
   content: '';
   background-color: #26baee;
-  height: 30px;
+  height: 25px;
   transition: 0.8s;
   display: block;
   animation: animate 1 4s;
@@ -89,9 +122,11 @@
 @media (min-width : 840px) {
   .line {
     min-width: 800px;
+    height: 25px;
   }
   .line:after{
     width: 100%;
+    height: 25px;
   }
 }
 
@@ -127,6 +162,7 @@
   }
   .logo {
     max-width: 100px;
+    margin-right: 20px;
   }
   .logo-git {
     width: 80px;
@@ -138,10 +174,11 @@
 }
 
 .logo-skills{
-  max-width: 40px;
+  max-width: 50px;
 }
 .logo {
-  max-width: 80px;
+  max-width: 70px;
+  margin-right: 18px;
 }
 .logo-git {
   width: 60px;
@@ -175,13 +212,6 @@
   }
 }
 
-.title{
-  text-align: center;
-  margin-top: 60px;
-  margin-bottom: 30px;
-  font-style: bold;
-  font-size: 35px;
-}
 #contactme{
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }

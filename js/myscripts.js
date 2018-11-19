@@ -20,7 +20,7 @@ const sliderImages = document.querySelectorAll('.slide-in');
   }
 window.addEventListener('scroll', checkSlide);
 
-const skills = document.querySelectorAll('.test');
+const skills = document.querySelectorAll('.screenScroll');
 function checkSkill() {
   skills.forEach(skill => {
   const slideInAt = window.scrollY + window.innerHeight;

@@ -20,12 +20,12 @@ h1 {
 }
 h2 {
   font-family: 'Playfair Display';
-  font-size: 25px;
+  font-size: 28px;
 }
 h3 {
   font-family: 'Open Sans';
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  padding-top: 15px;
 }
 p {
   font-family: 'Open Sans', 'sans-serif';
@@ -34,7 +34,7 @@ p {
 .container {
   margin: 0 auto;
   padding-bottom: 30px;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 .wrapper-beige {
   background-color: #FBF9FA;
