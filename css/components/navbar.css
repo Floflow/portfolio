@@ -10,7 +10,6 @@
   width: 100%;
   z-index: 99;
 }
-
 /* Right section */
 .navbar-right {
   display: flex;
@@ -18,13 +17,11 @@
   justify-content: space-between;
   margin-right: 40px;
 }
-
 /* Basic navbar item */
 .navbar-item {
   cursor: pointer;
   padding: 0 20px;
 }
-
 /* Navbar link */
 .navbar-link {
   color: black;
@@ -35,7 +32,6 @@
   color: #616668;
   text-decoration: none;
 }
-
 /* Dropdown menu */
 .navbar-dropdown-menu {
   margin-top: 15px;
@@ -66,7 +62,6 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
-
 .navbar-white {
   background: white;
   color: black;
