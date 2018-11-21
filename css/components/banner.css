@@ -16,8 +16,8 @@
 }
 .banner-content h3 {
   padding-top: 0px;
-  line-height: 40px;
-  font-size: 25px
+  line-height: 30px;
+  font-size: 19px
 }
 
 @media(min-width: 840px) {
@@ -30,5 +30,10 @@
     padding-right: 120px;
     padding-top: 80px;
     margin-bottom: 200px;
+    font-size: 25px
+  }
+  .banner-content h3{
+    font-size: 25px;
+    line-height: 40px;
   }
 }
