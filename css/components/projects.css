@@ -31,6 +31,7 @@ a:hover{
   text-decoration: none;
   color: black;
 }
+
 @media(min-width: 840px){
   .flex {
     display: flex;
@@ -182,6 +183,7 @@ a:hover{
 
   .description h3 {
     font-size: 25px;
+    padding-bottom: 8px;
   }
 }
 
