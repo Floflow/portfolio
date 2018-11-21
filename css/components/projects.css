@@ -14,7 +14,7 @@
   max-width: 280px;
 }
 .logo-contact{
-  max-width: 50px;
+  max-width: 45px;
   padding-right: 10px;
   padding-bottom: 10px;
 }
@@ -95,6 +95,8 @@
 }
 .content-interests p{
   padding-top: 25px;
+  max-width: 500px;
+  text-align: left;
 }
 
 .logo-interests{
@@ -137,19 +139,19 @@
   max-width: 80%;
 }
 .line2:after {
-  max-width: 50%;
+  max-width: 75%;
 }
 .line3:after {
-  max-width: 30%;
+  max-width: 20%;
 }
 .line4:after {
-  max-width: 60%;
+  max-width: 75%;
 }
 .line5:after {
-  max-width: 60%;
+  max-width: 90%;
 }
 .line6:after {
-  max-width: 60%;
+  max-width: 80%;
 }
 @media(min-width: 840px) {
   @keyframes animate {

@@ -16,6 +16,8 @@
 }
 .banner-content h3 {
   padding-top: 0px;
+  line-height: 40px;
+  font-size: 25px
 }
 
 @media(min-width: 840px) {
