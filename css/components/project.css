@@ -1,0 +1,77 @@
+.title{
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+.description-content{
+  padding-top: 10px;
+}
+.description h3 {
+  font-size: 20px;
+}
+.startrip{
+  max-width: 280px;
+}
+.kbuddy{
+  max-width: 280px;
+}
+/* logo */
+.logo {
+  max-width: 70px;
+  margin-right: 18px;
+}
+.logo-git {
+  width: 60px;
+}
+.picture{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.laptop{
+  display: none;
+}
+@media(min-width: 840px){
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phone{
+    display: none;
+  }
+  .laptop{
+    display: block;
+  }
+  .startrip{
+    max-width: 600px;
+  }
+  .kbuddy{
+    max-width: 500px;
+  }
+  .title{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .logo {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+  .logo-git {
+    width: 80px;
+  }
+  .description h3 {
+    font-size: 25px;
+    padding-bottom: 8px;
+  }
+}
+
+

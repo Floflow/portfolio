@@ -1,0 +1,26 @@
+#contactme{
+  margin-bottom: 20px;
+}
+.flex-contact{
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact{
+  padding-top: 40px;
+  color: grey ;
+}
+.logo-contact{
+  max-width: 45px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.logo-love {
+  max-width: 20px;
+}
+
+@media(min-width: 840px){
+.logo-contact{
+    max-width: 80px;
+  }
+}

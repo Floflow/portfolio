@@ -1,0 +1,79 @@
+.logo-skills{
+  max-width: 50px;
+}
+.flex-skills {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.flex-skills p{
+  margin-bottom: 0px;
+}
+
+/* skills effect with the pourcentages */
+.line {
+  height: 25px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  color: black;
+  padding: 0 0 0 10px;
+  min-width: 250px;
+  height: 25px;
+}
+
+.line:after{
+  content: '';
+  background-color: #26baee;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  animation: animate 1 4s;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (min-width : 840px) {
+  .logo-skills{
+    max-width: 70px;
+  }
+  .flex-skills p {
+    margin-bottom: 10px;
+  }
+  .line {
+    min-width: 800px;
+    height: 25px;
+  }
+  .line:after{
+    width: 100%;
+    height: 25px;
+  }
+}
+.line1:after {
+  max-width: 80%;
+}
+.line2:after {
+  max-width: 75%;
+}
+.line3:after {
+  max-width: 20%;
+}
+.line4:after {
+  max-width: 75%;
+}
+.line5:after {
+  max-width: 90%;
+}
+.line6:after {
+  max-width: 80%;
+}
+@media(min-width: 840px) {
+  @keyframes animate {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100;
+    }
+  }
+}
