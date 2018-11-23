@@ -34,7 +34,13 @@ a:hover{
 .description-content{
   padding-top: 10px;
 }
-
+.logo-love {
+  max-width: 20px;
+}
+.contact{
+  padding-top: 40px;
+  color: grey;
+}
 @media(min-width: 840px){
   .flex {
     display: flex;
