@@ -33,7 +33,7 @@ function checkSkill() {
 window.addEventListener('scroll', checkSkill);
 
 window.sr = ScrollReveal({ reset: false });
-sr.reveal('.text-reveal', { duration: 3000 });
+sr.reveal('.text-reveal', { duration: 6000 });
 sr.reveal('.header', { duration: 2000 });
 sr.reveal('.content', { duration: 2000, delay: 100 });
 
