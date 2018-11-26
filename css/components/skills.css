@@ -14,15 +14,16 @@
 /* skills effect with the pourcentages */
 .line {
   height: 25px;
-  margin: 0 auto 10px;
+
   line-height: 25px;
   color: black;
   padding: 0 0 0 10px;
-  min-width: 250px;
+  min-width: 300px;
   height: 25px;
 }
-
 .line:after{
+  margin-right: 30px;
+  margin-left: 10px;
   content: '';
   background-color: #26baee;
   height: 25px;
@@ -41,7 +42,8 @@
     margin-bottom: 10px;
   }
   .line {
-    min-width: 800px;
+    margin: 0 auto 10px;
+    min-width: 700px;
     height: 25px;
   }
   .line:after{
@@ -53,7 +55,7 @@
   max-width: 80%;
 }
 .line2:after {
-  max-width: 75%;
+  max-width: 70%;
 }
 .line3:after {
   max-width: 20%;

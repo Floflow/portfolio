@@ -40,21 +40,11 @@ a:hover{
   display: none;
 }
 @media(min-width: 840px){
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-  .phone{
-    display: none;
-  }
-  .laptop{
-    display: block;
-  }
   .startrip{
-    max-width: 600px;
+    max-width: 400px;
   }
   .kbuddy{
-    max-width: 500px;
+    max-width: 300px;
   }
   .title{
     margin-top: 60px;
@@ -71,6 +61,51 @@ a:hover{
   .description h3 {
     font-size: 25px;
     padding-bottom: 8px;
+  }
+}
+@media(min-width: 995px) and (max-width: 1200px){
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phone{
+    display: none;
+  }
+  .laptop{
+    display: block;
+  }
+  .startrip{
+    max-width: 400px;
+  }
+  .kbuddy{
+    max-width: 400px;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .logo-git {
+    width: 80px;
+  }
+  .description h3 {
+    font-size: 22px;
+  }
+}
+@media(min-width: 1200px){
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .phone{
+    display: none;
+  }
+  .laptop{
+    display: block;
+  }
+  .startrip{
+    max-width: 600px;
+  }
+  .kbuddy{
+    max-width: 500px;
   }
 }
 

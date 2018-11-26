@@ -1,5 +1,5 @@
 /* effect on the project image with a slide in for screen of minimum 840px*/
-@media(min-width: 840px){
+@media(min-width: 995px){
   .slide-in {
     opacity:0;
     transition:all .5s;
