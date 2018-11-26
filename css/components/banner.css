@@ -29,8 +29,20 @@
     margin-bottom: 200px;
     font-size: 25px
   }
+  .banner-content h1{
+    font-size: 40px;
+  }
+  .banner-content h3{
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+@media(min-width: 840px){
   .banner-content h3{
     font-size: 25px;
     line-height: 40px;
+  }
+  .banner-content h1{
+    font-size: 60px;
   }
 }
